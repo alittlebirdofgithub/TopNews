@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_scrollView"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/image_demo"
+                android:scaleType="fitXY"
+                android:id="@+id/user_background"
+                android:layout_height="match_parent" />
+        <LinearLayout
+       android:layout_gravity="center"
+        android:id="@+id/user_4btn"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.administrator.news.View.OtherView.CircleImageView
+        android:layout_weight="1"
+        android:id="@+id/user_firstbtn"
+        android:src="@drawable/smartservice_press"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        <com.example.administrator.news.View.OtherView.CircleImageView
+        android:layout_weight="1"
+        android:id="@+id/user_secondbtn"
+        android:src="@drawable/smartservice_press"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        <com.example.administrator.news.View.OtherView.CircleImageView
+        android:layout_weight="1"
+        android:id="@+id/user_threebtn"
+        android:src="@drawable/smartservice_press"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        <com.example.administrator.news.View.OtherView.CircleImageView
+        android:layout_weight="1"
+        android:id="@+id/user_fourbtn"
+        android:src="@drawable/smartservice_press"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_gravity="bottom"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:textColor="@color/dark"
+        android:text="更多登录方式 >"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:gravity="center"
+        android:drawableTop="@drawable/newscenter_press"
+        android:layout_width="0dp"
+        android:text="收藏"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+        <TextView
+
+        android:gravity="center"
+        android:text="历史"
+        android:drawableTop="@drawable/newscenter_press"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+        <TextView
+        android:gravity="center"
+        android:text="夜间"
+        android:drawableTop="@drawable/newscenter_press"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="6"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="消息通知"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="头条商城"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="京东特供"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="我要爆料"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="用户反馈"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="系统设置"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

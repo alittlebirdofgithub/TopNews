@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<FrameLayout
+    android:id="@+id/fragment_parent"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+<RadioGroup
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/firstpage"
+        android:button="@null"
+        android:text="首页"
+        android:checked="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableTop="@drawable/btn_bottom_home_selector"
+        android:textColor="@drawable/button_tab_selector"
+       android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/video"
+        android:button="@null"
+        android:text="视频"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableTop="@drawable/btn_bottom_news_selector"
+        android:textColor="@drawable/button_tab_selector"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/top"
+        android:button="@null"
+        android:textColor="@drawable/button_tab_selector"
+        android:text="微头条"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableTop="@drawable/btn_bottom_service_selector"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/user"
+        android:button="@null"
+        android:textColor="@drawable/button_tab_selector"
+        android:text="用户"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableTop="@drawable/btn_bottom_setting_selector"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1" />
+</RadioGroup>
+</LinearLayout>

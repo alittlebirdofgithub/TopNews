@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.administrator.news.View.OtherView.CircleImageView
+            android:id="@+id/circle_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/top_recycle_holder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/circle_image"
+            android:paddingTop="10dp"
+            android:text="测试员"
+            android:textColor="@color/dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/circle_image"
+            android:layout_toRightOf="@id/circle_image"
+            android:paddingBottom="5dp"
+            android:text="04-28 11:37"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:drawableRight="@mipmap/ic_launcher"
+          android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/top_recycle_del"
+
+             />
+        <TextView
+          android:layout_centerVertical="true"
+            android:text="+关注"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/top_recycle_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:maxLines="7"
+        android:id="@+id/top_recycle_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <TableLayout
+        android:id="@+id/top_holder_grid"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableLayout>
+
+
+        <TextView
+            android:padding="2dp"
+            android:id="@+id/top_holder_heat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="31.1万阅读  321赞  30评论"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/gray" />
+
+       <LinearLayout
+           android:padding="5dp"
+           android:id="@+id/bottom"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="赞"
+
+            />
+
+        <TextView
+
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="写评论" />
+       </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\News\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\da7bef176e5a684daef62a24f9e56bc63dc0dc48\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\News\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\da7bef176e5a684daef62a24f9e56bc63dc0dc48\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\News\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\da7bef176e5a684daef62a24f9e56bc63dc0dc48\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\News\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\da7bef176e5a684daef62a24f9e56bc63dc0dc48\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]
